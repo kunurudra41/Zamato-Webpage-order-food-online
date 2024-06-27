@@ -22,3 +22,48 @@ body {
 .navbar_logo {
   width: 100%;
 }
+
+.nav__item {
+  background-image: linear-gradient(
+    to right,
+   #ff512f 0%,
+   #dd2476 51%,
+   #ff512f 100%
+    );
+    color: #fff;
+   border: none;
+   padding: 12px;
+   border-radius: 6px;
+   font-weight: 600;
+}
+
+.nav__item:hover{
+  border: 2px solid #ff6767;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .navbar{
+    justify-content: space-space-between;
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar__brand {
+    width: 150px;
+  }
+  .nav__item{
+    padding: 15px;
+    font size: 25px;
+  }
+
+}
+
+@media (min-width:375px) {
+  .navbar{
+  justify-content: space-between;
+  padding: 5px 20px;
+  }
+
+}
